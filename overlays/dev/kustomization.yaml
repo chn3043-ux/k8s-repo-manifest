@@ -3,8 +3,7 @@ kind: Kustomization
 images:
 - name: nginx
   newName: nginx
-  newName: 1.27.1
-  newTag: abc1cd
+  newTag: 1.29.1
 resources:
 - ../../base
 patchesStrategicMerge:
